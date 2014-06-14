@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingBottom="10dp"
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         android:text="Local Reporting for Ghana Justice"
         android:textSize="17sp" />
 
@@ -26,24 +26,24 @@
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="2dp"
         android:layout_weight="5" />
     
-    <TextView
-        android:id="@+id/TextView1"
+    <EditText
+        android:id="@+id/EditText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_weight="1"
         android:background="#C0C0C0"
-        android:text="" >
+        android:padding = "5dp"
+        android:hint="Input a brief description."
+        android:layout_weight="1" >
 
-    </TextView>
+    </EditText>
 
     <Button
         android:id="@+id/button2"
@@ -52,7 +52,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_weight=".5"
+        android:layout_weight=".10"
         android:text="Submit"
         android:textSize="21sp" />
 
